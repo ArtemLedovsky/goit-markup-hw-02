@@ -55,16 +55,23 @@ a {
   color: #404bbf;
 }
 
-.header-nav-link:active {
+.header-nav-link:focus {
   color: #404bbf;
 }
 
-.header-adress-link {
+.header-adress {
   font-style: normal;
+}
+
+.header-adress-link {
   color: #434455;
 }
 
-.header-adress-link:hover .header-adress-link:active {
+.header-adress-link:hover {
+  color: #404bbf;
+}
+
+.header-adress-link:focus {
   color: #404bbf;
 }
 
@@ -95,7 +102,7 @@ a {
   background-color: #404bbf;
 }
 
-.hero-btn:active {
+.hero-btn:focus {
   background-color: #404bbf;
 }
 
@@ -117,6 +124,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
